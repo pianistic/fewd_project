@@ -1,0 +1,64 @@
+body {
+	padding-top: 50px;
+}
+
+.masthead {
+	min-height: 529px;
+	background: url("../images/masthead.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.masthead #innermasthead {
+	width: 940px;
+	margin: 0 auto;
+	padding-top: 25px;
+	color: black;
+	text-align: center;
+}
+
+.masthead #innermasthead h1, h2, h3, h4, h5, h6 {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 200;
+	line-height: 1.1;
+	text-align: center
+}
+
+#socialbar {
+	text-align: center;
+	border-bottom: 2px solid black;
+}
+
+#socialbar .container {
+	display: inline-block;
+	margin-top: 20px;
+}
+
+#socialbar .container li {
+	float: left;
+	list-style: none;
+}
+
+#camp {
+	background: #f8f8f8;
+	padding-bottom: 20px;
+}
+
+#camp h1 {
+	text-align: center;
+	font-family: "Helvetica Neue";
+	font-weight: 200;
+	font-size: 50px;
+	padding: 10px 0 20px;
+}
+
+.campimage {
+	display: block;
+	margin: 0 auto;
+}
+
+.col-lg-4 p {
+	padding: 0 25px;
+	font-family: "Helvetica Neue";
+	font-weight: 200;
+}
