@@ -41,6 +41,7 @@ body {
 
 #camp {
 	background: #f8f8f8;
+	/*background: -webkit-linear-gradient(left, black 40%, #fff); GRADIENT OPTION*/
 	padding-bottom: 20px;
 }
 
@@ -61,4 +62,10 @@ body {
 	padding: 0 25px;
 	font-family: "Helvetica Neue";
 	font-weight: 200;
+}
+
+.shadow {
+	/*shadow and rounded corners*/
+  	box-shadow: 10px 10px 10px #333;
+  	border-radius: 15px;
 }
