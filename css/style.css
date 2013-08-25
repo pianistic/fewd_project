@@ -2,31 +2,22 @@ body {
 	padding-top: 50px;
 }
 
-.masthead {
-	min-height: 529px;
-	background: url("../images/masthead.jpg");
-	background-repeat: no-repeat;
-	background-size: 100%;
-}
-
-.masthead #innermasthead {
-	width: 940px;
-	margin: 0 auto;
-	padding-top: 25px;
-	color: black;
-	text-align: center;
-}
-
-.masthead #innermasthead h1, h2, h3, h4, h5, h6 {
+body, h1, h2, h3, h4, h5, h6, p {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 200;
-	line-height: 1.1;
+}
+
+.carousel-caption h1, p {
+	line-height: 1.5;
 	text-align: center
+}
+
+.carousel-caption p {
+	font-size: 18px;
 }
 
 #socialbar {
 	text-align: center;
-	border-bottom: 2px solid black;
 }
 
 #socialbar .container {
@@ -40,17 +31,19 @@ body {
 }
 
 #camp {
-	background: #f8f8f8;
+	background: #f5f5f5;
 	/*background: -webkit-linear-gradient(left, black 40%, #fff); GRADIENT OPTION*/
 	padding-bottom: 20px;
 }
 
 #camp h1 {
 	text-align: center;
-	font-family: "Helvetica Neue";
-	font-weight: 200;
 	font-size: 50px;
 	padding: 10px 0 20px;
+}
+
+#camp h3 {
+	text-align: center;
 }
 
 .campimage {
@@ -60,12 +53,42 @@ body {
 
 .col-lg-4 p {
 	padding: 0 25px;
-	font-family: "Helvetica Neue";
-	font-weight: 200;
 }
 
 .shadow {
 	/*shadow and rounded corners*/
   	box-shadow: 10px 10px 10px #333;
   	border-radius: 15px;
+}
+
+#accreditation h1 {
+	font-size: 50px;
+	padding: 10px 0 20px;
+}
+
+#accreditation {
+	text-align: center;
+}
+
+#accreditation .container {
+	display: inline-block;
+	margin-bottom: 50px;
+}
+
+#accreditation .container li {
+	float: left;
+	list-style: none;
+}
+
+#footer {
+  height: 50px;
+  background: linear-gradient(105deg, black 20%, white 80%)
+}
+
+#footer p {
+	color: white;
+	font-weight: 100;
+	font-size: 15px;
+	padding-top: 15px;
+	text-align: left;
 }

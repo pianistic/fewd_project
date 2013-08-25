@@ -5,8 +5,8 @@
 		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" href="css/style.css">
 
-		<script type="text/javascript" src="js/bootstrap.js"></script>
 		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/bootstrap.js"></script>
 		<script type="text/javascript" src="js/main.js"></script>
 	</head>
 
@@ -41,13 +41,52 @@
 			    </div><!-- /.nav-collapse -->
 		  	</div><!-- /.container -->
 		</div>
-		<div class="masthead">
-			<div class="container" id="innermasthead">
-				<h1>2013 Camp Dates</h1>
-				<h3>Session 1: June 30 - July 19</h3>
-				<h3>Session 2: July 21 - August 9</h3>
-			</div>
-		</div>
+
+		<!-- Carousel
+		================================================== -->
+		<div id="myCarousel" class="carousel slide">
+		  <!-- Indicators -->
+		  <ol class="carousel-indicators">
+		    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		    <li data-target="#myCarousel" data-slide-to="1"></li>
+		    <li data-target="#myCarousel" data-slide-to="2"></li>
+		  </ol>
+		  <div class="carousel-inner">
+		    <div class="item active">
+		      <img src="images/masthead1.jpg" data-src="holder.js/100%x500/auto/#777:#7a7a7a/text:First slide" alt="First slide">
+		      <div class="container">
+		        <div class="carousel-caption">
+		          <h1>Sign up for Summer 2014 soon!</h1>
+		          <p>All of our camp sessions fill up very quickly, so APPLY EARLY! Our new online registration system will be open for Priority Registration for returning campers on October 1 with registrations for new campers open November 1. </p>
+		        </div>
+		      </div>
+		    </div>
+		    <div class="item">
+		      <img src="images/masthead2.jpg" data-src="holder.js/100%x500/auto/#777:#7a7a7a/text:Second slide" alt="Second slide">
+		      <div class="container">
+		        <div class="carousel-caption">
+		          <h1>On the fence?</h1>
+		          <p>If you're considering attending Catalina Sea Camp, chances are it's the exciting programs of Diving, Sailing, Marine Science and Adventure Courses that's capturing your attention. To receive information on our summer camp programs, please click below.</p>
+		          <p><a class="btn btn-large btn-primary" href="#">Learn more</a></p>
+		        </div>
+		      </div>
+		    </div>
+		    <div class="item">
+		      <img src="images/masthead3.jpg" data-src="holder.js/100%x500/auto/#777:#7a7a7a/text:Third slide" alt="Third slide">
+		      <div class="container">
+		        <div class="carousel-caption">
+		          <h1>Learn to SCUBA at CIMI!</h1>
+		          <p>Catalina Sea Camp offers dive classes from basic Open Water Certification all the way to Master Diver. Click the button below for a list of our SCUBA courses. Please note that some courses have age and experience requirements.</p>
+		          <p><a class="btn btn-large btn-primary" href="http://www.cimi.org/catalinaseacamp/scscubadivinginfo.html">More information</a></p>
+		        </div>
+		      </div>
+		    </div>
+		  </div>
+		  <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+		  <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+		</div><!-- /.carousel -->
+
+
 		<div id="socialbar">
 			<ul class="container clearfix">
 				<li class="socialnetwork">
@@ -67,35 +106,43 @@
 					<div class="col-lg-4">
 						<a href="seacamp.html"><img class="campimage shadow" src="images/catalinaseacamp.jpg" /></a>
 						<h3>Catalina Sea Camp</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							<p>At Catalina Sea Camp, we pride ourselves in providing top-notch programs that take full advantage of the amazing land and marine environments of Catalina Island. For three weeks, campers ages 12-17 utilize the best equipment and trained professional instructors to participate in activities that you would be hard-pressed to find anywhere else. From SCUBA to Sailing, Marine Science to Seafood Cookery, and everywhere in between, Catalina Sea Camp offers courses for all levels and interest.</p>
+							<p><a class="btn btn-default" href="#">View details &raquo;</a></p>
 					</div>
 					<div class="col-lg-4">
 						<a href="juniorseacamp.html"><img class="campimage shadow" src="images/juniorseacamp.png" /></a>
 						<h3>Junior Sea Camp</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							<p>What better way to spend a week of the summer than to spend it on Catalina Island at Junior Sea Camp! Located at Toyon Bay, just a few miles down the coast from Avalon, Junior Sea Camp offers campers ages 8-13 a week in the sun snorkeling in our waters, hiking our many trails, learning about our ocean through awesome shark, algae and invertebrate touch tanks and making new friends that will last a lifetime.</p>
+							<p><a class="btn btn-default" href="#">View details &raquo;</a></p>
 					</div>
 					<div class="col-lg-4">
 						<a href="astrocamp.html"><img class="campimage shadow" src="images/astrocamp.jpg" /></a>
 						<h3>Astrocamp</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							<p>Imagine spending 1-2 weeks in the mountains hanging out with your friends, building rockets, mountain biking of the best trails in Southern California, treasure hunting using hand-held GPS computers, exploring microgravity using SCUBA, climbing our enormous rock wall, bouldering huge rocks, flying through the air on our zip line and getting diry in our mud pit. Sound too good to be true? Well, it's not!</p>
+							<p><a class="btn btn-default" href="#">View details &raquo;</a></p>
 					</div>
 				</div>
 			</div>
 		</div>
+
+		<div id="accreditation">
+			<ul class="container clearfix">
+				<h1>Accreditation</h1>
+				<li class="accredit">
+					<a href="http://www.acacamps.org" target="_blank"><img src="images/aca.jpg" /></a>
+				</li>
+				<li class="accredit">
+					<a href="http://www.waic.org" target="_blank"><img src="images/waic.gif" /></a>
+				</li>
+			</ul>
+		</div>
+
+		<!-- BEGIN FOOTER -->
+		<div id="footer">
+		  <div class="container">
+		    <p> &copy 2013 Christopher Chung</p>
+		  </div>
+		</div>
+		<!-- END FOOTER -->
 	</body>
 </html>
