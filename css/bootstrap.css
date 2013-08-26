@@ -4356,7 +4356,7 @@ a.list-group-item.active > .badge,
 .carousel-caption {
   position: absolute;
   right: 15%;
-  bottom: 20px;
+  bottom: 125px;
   left: 15%;
   z-index: 10;
   padding-top: 20px;
