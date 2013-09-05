@@ -20,6 +20,10 @@ body p {
 	text-align: center
 }
 
+#shadow {
+	text-shadow: 3px 3px 2px black;
+}
+
 .carousel-caption p {
 	font-size: 18px;
 }
